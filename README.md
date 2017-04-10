@@ -27,3 +27,15 @@ An application for code linting and reviewing with fully customizable rules for 
 
 *Every reviewer* can do the code reviewing on multiple updateSets and the developer will have the visibility of the review validation results simultaneously to act upon in brining the highest quality of code quickly.
 
+## Developer Persona:
+
+
+## Reviewer Persona:
+
+
+## Rules Administrator Persona:
+
+
+## License:
+
+MIT
