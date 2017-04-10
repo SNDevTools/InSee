@@ -15,6 +15,8 @@ An application for code linting and reviewing with fully customizable rules for 
      Note: Integration user needs to have admin role.
      4. Change the "Code Sync Status" from "Not Initialized" to "Intialized" and
      5. Click on Save. Wait for couple of minutes and refresh the page to see if the status changed to "Completed".
+     
+     
  ![Setup Process](Readme-assets/Setup-process.png)
  
 ## About:
