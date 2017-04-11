@@ -1,4 +1,4 @@
-# ![InSee logo](Readme-assets/InSee-Logo.png)InSee
+# ![InSee logo](Readme-assets/InSee-Logo.png)UncleBob
 
 An application for code linting and reviewing with fully customizable rules for every ServiceNow developer/reviewer.
 
