@@ -35,12 +35,34 @@ An application for code linting and reviewing with fully customizable rules for 
 
 ## Developer Persona:
 
+1. Developers will be able to see an UI action *"Code Review"* on form view of tables that extend from sys_metadaa. for the initial release 1.0, this UI action is available on Business Rules, Client Scripts and Script Includes.
+2. Upon clicking this UI action, the file contents will be synced on to mid server and thus gets validated by ESlint rules and the review results are populated under *review resulsts* related list.
+
+-- following are some quick snapshots to viz this UI action in action.
 
 ## Reviewer Persona:
 
+Reviewer can review code at 2 levels
+  1. story
+  2. update set
+  
+  Reviewer will be able to see application Automated code review and Review Request module. Upon navigating to this menu, Reviewer can create a new record with a story number, owner and other story related information. Also reviewer selects the update sets that contains the changes for the mentioned story and then Reviewer clicks on the Code Review UI action.
+  
+  Alternatively, Reviewer can also do the same UI action directly on an update set level.
+  
+  In both cases, review results will be populated under *"review results"* related list in story/update set respectively.
 
 ## Rules Administrator Persona:
 
+Rule Administrator has access to Automated code review application with the all the following navigations.
+
+1. Code Review Rules
+2. Review Requests
+3. Review Results
+4. Configuration
+     1. setup
+     2. Eslint Globals
+     3. ACR Sources
 
 ## License:
 
