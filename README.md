@@ -52,6 +52,7 @@ Reviewer can review the code spanning across multipe updateSets using the Review
 ## Rules Administrator Persona:
 
 Rule Administrator can maintain the Review Rules with the below capabilities:
+
      1. Modify the OOTB rules (OOTB rules have their rule name start with SNOW) by either deactivating/activating the rules or changing the level of the error logging (ERROR, WARNING, INFO).
      
      2. Create and modify the definitions of the custom rules
