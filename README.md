@@ -35,11 +35,14 @@ An application for code linting and reviewing with fully customizable rules for 
 
 ## Developer Persona:
 
-1. Developers will be able to see an UI action *"Code Review"* on form view of tables that extend from sys_metadaa. for the initial release 1.0, this UI action is available on Business Rules, Client Scripts and Script Includes.
-2. Upon clicking this UI action, the file contents will be synced on to mid server and thus gets validated by ESlint rules and the review results are populated under *review resulsts* related list.
+1. Developers can click on *"Code Review"* button on the script entities (Business Rules, Script Includes, Client Scripts and UI Scripts) and find the validation results directly on the script entity to act on accordingly.
 
--- following are some quick snapshots to viz this UI action in action.
+ ![Script Entity Code Review](Readme-assets/ScriptEntity-CodeReview.png)
+ 
+2. Developers can also click on *"Code Review"* button on the appropriate updateSet to validate the rules against all the script entities in that updateSet so as to find and fix the validation errors related to that updateSet.
 
+ ![UpdateSet Code Review](Readme-assets/UpdateSet-CodeReview.png)
+ 
 ## Reviewer Persona:
 
 Reviewer can review code at 2 levels
@@ -63,6 +66,12 @@ Rule Administrator has access to Automated code review application with the all 
      1. setup
      2. Eslint Globals
      3. ACR Sources
+
+## Resources
+
+To develop new eslint rules using the AST (Abstract Syntax Tree):
+http://eslint.org/docs/developer-guide/working-with-rules
+https://astexplorer.net
 
 ## License:
 
