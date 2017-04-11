@@ -70,8 +70,8 @@ Rule Administrator has access to Automated code review application with the all 
 ## Resources
 
 To develop new eslint rules using the AST (Abstract Syntax Tree):
-http://eslint.org/docs/developer-guide/working-with-rules
-https://astexplorer.net
+### http://eslint.org/docs/developer-guide/working-with-rules
+### https://astexplorer.net
 
 ## License:
 
