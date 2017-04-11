@@ -45,27 +45,18 @@ An application for code linting and reviewing with fully customizable rules for 
  
 ## Reviewer Persona:
 
-Reviewer can review code at 2 levels
-  1. story
-  2. update set
-  
-  Reviewer will be able to see application Automated code review and Review Request module. Upon navigating to this menu, Reviewer can create a new record with a story number, owner and other story related information. Also reviewer selects the update sets that contains the changes for the mentioned story and then Reviewer clicks on the Code Review UI action.
-  
-  Alternatively, Reviewer can also do the same UI action directly on an update set level.
-  
-  In both cases, review results will be populated under *"review results"* related list in story/update set respectively.
+Reviewer can review the code spanning across multipe updateSets using the Review Request module by creating a review request with the appropriate details like Story number, Story Owner and the list of update sets to be considered as an unit of work to be reviewed. Once the request is created, Reviewer can request for *"Code Review"* using the button on the request form and the validation results will be populated under *"Review Results"* which can then be worked on by the respective developer. Reviewer can click on the *"Code Review"* button on the Review Request form any number of times to re-validate the status of the code changes.
 
+ ![Review Request - Code Review](Readme-assets/ReviewRequest-CodeReview.png)
+ 
 ## Rules Administrator Persona:
 
-Rule Administrator has access to Automated code review application with the all the following navigations.
-
-1. Code Review Rules
-2. Review Requests
-3. Review Results
-4. Configuration
-     1. setup
-     2. Eslint Globals
-     3. ACR Sources
+Rule Administrator can maintain the Review Rules with the below capabilities:
+     1. Modify the OOTB rules (OOTB rules have their rule name start with SNOW) by either deactivating/activating the rules or changing the level of the error logging (ERROR, WARNING, INFO).
+     
+     2. Create and modify the definitions of the custom rules
+     
+     3. Delete custom rules
 
 ## Resources
 
