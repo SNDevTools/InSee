@@ -59,7 +59,7 @@ Rule Administrator can maintain the Review Rules with the below capabilities:
      
      3. Delete custom rules
      
-     ![Rule Definition](Readme-assets/Rule.png)
+![Rule Definition](Readme-assets/Rule.png)
      
      
 ### Rules Development
@@ -68,7 +68,7 @@ Rule Administrator can maintain the Review Rules with the below capabilities:
 Developers can use the links provided in the *Resources* Section to start learning on how to write the custom rules.
 This application provides the Rule Builder interface which can be used to implement new rules on the go along with testing the rule with the sample code snippet on the same interface. 
 
-     ![Rule Builder](Readme-assets/Rule Builder.png)
+![Rule Builder](Readme-assets/RuleBuilder.png)
      
 ## Resources
 
