@@ -47,7 +47,7 @@ An application for code linting and reviewing with fully customizable rules for 
 
 Reviewer can review the code spanning across multipe updateSets using the Review Request module by creating a review request with the appropriate details like Story number, Story Owner and the list of update sets to be considered as an unit of work to be reviewed. Once the request is created, Reviewer can request for *"Code Review"* using the button on the request form and the validation results will be populated under *"Review Results"* which can then be worked on by the respective developer. Reviewer can click on the *"Code Review"* button on the Review Request form any number of times to re-validate the status of the code changes.
 
- ![Review Request - Code Review](Readme-assets/ReviewRequest-CodeReview.png)
+ ![Review Request - Code Review](Readme-assets/Review Request.png)
  
 ## Rules Administrator Persona:
 
