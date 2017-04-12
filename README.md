@@ -59,12 +59,17 @@ Rule Administrator can maintain the Review Rules with the below capabilities:
      
      3. Delete custom rules
      
+     ![Rule Definition](Readme-assets/Rule.png)
+     
+     
 ### Rules Development
 
      ESLint rules work on the AST (Abstract Syntax Tree) which provides the tree representation of the entire code to be evaluated and the API is provided to write the rules by tranversing the Syntax tree to implement the rule specification.
 Developers can use the links provided in the *Resources* Section to start learning on how to write the custom rules.
 This application provides the Rule Builder interface which can be used to implement new rules on the go along with testing the rule with the sample code snippet on the same interface. 
 
+     ![Rule Builder](Readme-assets/Rule Builder.png)
+     
 ## Resources
 
 To develop new eslint rules using the AST (Abstract Syntax Tree):
